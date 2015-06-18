@@ -7,10 +7,11 @@
 //
 
 import Cocoa
+import Alamofire
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
-
+    
     @IBOutlet weak var window: NSWindow!
     
     let statusItem = NSStatusBar.systemStatusBar().statusItemWithLength(-2)
@@ -18,19 +19,22 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     func applicationDidFinishLaunching(aNotification: NSNotification) {
         if let button = statusItem.button {
             button.image = NSImage(named: "StatusBarButtonImage")
-            button.action = Selector("printQuote:")
+            button.action = Selector("openDoor")
         }
     }
-
-    func applicationWillTerminate(aNotification: NSNotification) {
-        // Insert code here to tear down your application
+    
+    func openDoor() {
+        Alamofire.request(.POST, "https://lostmydoorbell.herokuapp.com/", parameters: [
+            "token": slackToken(),
+            "user_name": "Simonf Test"
+            ])
     }
-
-    func printQuote(sender: AnyObject) {
-        let quoteText = "Never put off until tomorrow what you can do the day after tomorrow."
-        let quoteAuthor = "Mark Twain"
+    
+    func slackToken() -> AnyObject {
+        let path = NSBundle.mainBundle().pathForResource("settings", ofType: "plist")
+        let settings = NSDictionary(contentsOfFile: path!)!
         
-        println("\(quoteText) — \(quoteAuthor)")
+        return settings["SlackToken"]!
     }
 }
 
