@@ -185,6 +185,7 @@
 				TargetAttributes = {
 					3B5CA17F1B332ED0008252EE = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = ELJ895ZVBY;
 					};
 					3B5CA18F1B332ED0008252EE = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -403,6 +404,7 @@
 			baseConfigurationReference = 45774911E4463667628B1C94 /* Pods-LostMyDoorbellOSX.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = LostMyDoorbellOSX/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
@@ -415,6 +417,7 @@
 			baseConfigurationReference = A2816113FF832609B9D3FD09 /* Pods-LostMyDoorbellOSX.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = LostMyDoorbellOSX/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
