@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B401C871B34441F00529C66 /* settings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B401C861B34441F00529C66 /* settings.plist */; };
 		3B5CA1861B332ED0008252EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5CA1851B332ED0008252EE /* AppDelegate.swift */; };
 		3B5CA1881B332ED0008252EE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B5CA1871B332ED0008252EE /* Images.xcassets */; };
 		3B5CA18B1B332ED0008252EE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B5CA1891B332ED0008252EE /* MainMenu.xib */; };
@@ -25,7 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3B21B2C51B33358500C32378 /* settings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = settings.plist; sourceTree = "<group>"; };
+		3B401C861B34441F00529C66 /* settings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = settings.plist; sourceTree = "<group>"; };
 		3B5CA1801B332ED0008252EE /* LostMyDoorbellOSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LostMyDoorbellOSX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B5CA1841B332ED0008252EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B5CA1851B332ED0008252EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -91,10 +92,10 @@
 			isa = PBXGroup;
 			children = (
 				3B5CA1851B332ED0008252EE /* AppDelegate.swift */,
-				3B21B2C51B33358500C32378 /* settings.plist */,
 				3B5CA1871B332ED0008252EE /* Images.xcassets */,
 				3B5CA1891B332ED0008252EE /* MainMenu.xib */,
 				3B5CA1831B332ED0008252EE /* Supporting Files */,
+				3B401C861B34441F00529C66 /* settings.plist */,
 			);
 			path = LostMyDoorbellOSX;
 			sourceTree = "<group>";
@@ -216,7 +217,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B5CA1881B332ED0008252EE /* Images.xcassets in Resources */,
-				3B21B2C61B33358500C32378 /* settings.plist in Resources */,
+				3B401C871B34441F00529C66 /* settings.plist in Resources */,
 				3B5CA18B1B332ED0008252EE /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
