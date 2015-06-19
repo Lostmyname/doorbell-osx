@@ -26,7 +26,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     func openDoor() {
         Alamofire.request(.POST, "https://lostmydoorbell.herokuapp.com/", parameters: [
             "token": slackToken(),
-            "user_name": "Simonf Test"
+            "user_name": "\(NSUserName()) (OS X)"
             ])
     }
     
