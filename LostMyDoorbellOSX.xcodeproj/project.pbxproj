@@ -11,28 +11,17 @@
 		3B5CA1861B332ED0008252EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5CA1851B332ED0008252EE /* AppDelegate.swift */; };
 		3B5CA1881B332ED0008252EE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B5CA1871B332ED0008252EE /* Images.xcassets */; };
 		3B5CA18B1B332ED0008252EE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B5CA1891B332ED0008252EE /* MainMenu.xib */; };
-		3B5CA1971B332ED0008252EE /* LostMyDoorbellOSXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5CA1961B332ED0008252EE /* LostMyDoorbellOSXTests.swift */; };
 		5F48320495C8B4F6AFEDA0D4 /* Pods_LostMyDoorbellOSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DAA17EFE1F7964E7F676667 /* Pods_LostMyDoorbellOSX.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		3B5CA1911B332ED0008252EE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3B5CA1781B332ED0008252EE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3B5CA17F1B332ED0008252EE;
-			remoteInfo = LostMyDoorbellOSX;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		3B401C861B34441F00529C66 /* settings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = settings.plist; sourceTree = "<group>"; };
+		3B401C981B34572700529C66 /* LostMyDoorbellOSX copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "LostMyDoorbellOSX copy-Info.plist"; path = "/Users/simonpfry/Development/LostMyDoorbellOSX/LostMyDoorbellOSX copy-Info.plist"; sourceTree = "<absolute>"; };
 		3B5CA1801B332ED0008252EE /* LostMyDoorbellOSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LostMyDoorbellOSX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B5CA1841B332ED0008252EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B5CA1851B332ED0008252EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B5CA1871B332ED0008252EE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3B5CA18A1B332ED0008252EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		3B5CA1901B332ED0008252EE /* LostMyDoorbellOSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LostMyDoorbellOSXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B5CA1951B332ED0008252EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B5CA1961B332ED0008252EE /* LostMyDoorbellOSXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LostMyDoorbellOSXTests.swift; sourceTree = "<group>"; };
 		45774911E4463667628B1C94 /* Pods-LostMyDoorbellOSX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LostMyDoorbellOSX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LostMyDoorbellOSX/Pods-LostMyDoorbellOSX.debug.xcconfig"; sourceTree = "<group>"; };
@@ -46,13 +35,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F48320495C8B4F6AFEDA0D4 /* Pods_LostMyDoorbellOSX.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3B5CA18D1B332ED0008252EE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +58,7 @@
 				3B5CA1811B332ED0008252EE /* Products */,
 				1B4F999C795B930C45A1D2A0 /* Pods */,
 				F340D35707D503E56DEE4C39 /* Frameworks */,
+				3B401C981B34572700529C66 /* LostMyDoorbellOSX copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,7 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				3B5CA1801B332ED0008252EE /* LostMyDoorbellOSX.app */,
-				3B5CA1901B332ED0008252EE /* LostMyDoorbellOSXTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -136,9 +118,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3B5CA17F1B332ED0008252EE /* LostMyDoorbellOSX */ = {
+		3B5CA17F1B332ED0008252EE /* LostMyDoorbell */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3B5CA19A1B332ED0008252EE /* Build configuration list for PBXNativeTarget "LostMyDoorbellOSX" */;
+			buildConfigurationList = 3B5CA19A1B332ED0008252EE /* Build configuration list for PBXNativeTarget "LostMyDoorbell" */;
 			buildPhases = (
 				7693CE83285D591DF350739A /* Check Pods Manifest.lock */,
 				3B5CA17C1B332ED0008252EE /* Sources */,
@@ -151,28 +133,10 @@
 			);
 			dependencies = (
 			);
-			name = LostMyDoorbellOSX;
+			name = LostMyDoorbell;
 			productName = LostMyDoorbellOSX;
 			productReference = 3B5CA1801B332ED0008252EE /* LostMyDoorbellOSX.app */;
 			productType = "com.apple.product-type.application";
-		};
-		3B5CA18F1B332ED0008252EE /* LostMyDoorbellOSXTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3B5CA19D1B332ED0008252EE /* Build configuration list for PBXNativeTarget "LostMyDoorbellOSXTests" */;
-			buildPhases = (
-				3B5CA18C1B332ED0008252EE /* Sources */,
-				3B5CA18D1B332ED0008252EE /* Frameworks */,
-				3B5CA18E1B332ED0008252EE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3B5CA1921B332ED0008252EE /* PBXTargetDependency */,
-			);
-			name = LostMyDoorbellOSXTests;
-			productName = LostMyDoorbellOSXTests;
-			productReference = 3B5CA1901B332ED0008252EE /* LostMyDoorbellOSXTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -186,10 +150,6 @@
 					3B5CA17F1B332ED0008252EE = {
 						CreatedOnToolsVersion = 6.3.2;
 						DevelopmentTeam = ELJ895ZVBY;
-					};
-					3B5CA18F1B332ED0008252EE = {
-						CreatedOnToolsVersion = 6.3.2;
-						TestTargetID = 3B5CA17F1B332ED0008252EE;
 					};
 				};
 			};
@@ -206,8 +166,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3B5CA17F1B332ED0008252EE /* LostMyDoorbellOSX */,
-				3B5CA18F1B332ED0008252EE /* LostMyDoorbellOSXTests */,
+				3B5CA17F1B332ED0008252EE /* LostMyDoorbell */,
 			);
 		};
 /* End PBXProject section */
@@ -220,13 +179,6 @@
 				3B5CA1881B332ED0008252EE /* Images.xcassets in Resources */,
 				3B401C871B34441F00529C66 /* settings.plist in Resources */,
 				3B5CA18B1B332ED0008252EE /* MainMenu.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3B5CA18E1B332ED0008252EE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,23 +241,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3B5CA18C1B332ED0008252EE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3B5CA1971B332ED0008252EE /* LostMyDoorbellOSXTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		3B5CA1921B332ED0008252EE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3B5CA17F1B332ED0008252EE /* LostMyDoorbellOSX */;
-			targetProxy = 3B5CA1911B332ED0008252EE /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		3B5CA1891B332ED0008252EE /* MainMenu.xib */ = {
@@ -425,42 +361,6 @@
 			};
 			name = Release;
 		};
-		3B5CA19E1B332ED0008252EE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = LostMyDoorbellOSXTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LostMyDoorbellOSX.app/Contents/MacOS/LostMyDoorbellOSX";
-			};
-			name = Debug;
-		};
-		3B5CA19F1B332ED0008252EE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = LostMyDoorbellOSXTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LostMyDoorbellOSX.app/Contents/MacOS/LostMyDoorbellOSX";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -473,20 +373,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3B5CA19A1B332ED0008252EE /* Build configuration list for PBXNativeTarget "LostMyDoorbellOSX" */ = {
+		3B5CA19A1B332ED0008252EE /* Build configuration list for PBXNativeTarget "LostMyDoorbell" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3B5CA19B1B332ED0008252EE /* Debug */,
 				3B5CA19C1B332ED0008252EE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3B5CA19D1B332ED0008252EE /* Build configuration list for PBXNativeTarget "LostMyDoorbellOSXTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3B5CA19E1B332ED0008252EE /* Debug */,
-				3B5CA19F1B332ED0008252EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
